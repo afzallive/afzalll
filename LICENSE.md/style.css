@@ -1,0 +1,292 @@
+/* body */
+p {
+	font-size: 14px !important;
+	opacity: 0.5 !important;
+	text-transform:capitalize;
+}
+ul {
+	list-style: none;
+}
+li {
+	display: inline;
+}
+
+/* header */
+.header {
+	position: absolute;
+	top: 20px;
+	right: 0;
+	left: 0;
+}
+.menu-area ul {
+	list-style: none;
+} 
+.menu-area ul li {
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 0px 28px;
+}
+.menu-area ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+}
+
+/* slider */
+.slider{
+	
+	background-image: url(../img/silder.png)
+	
+}
+.wc-note {
+	text-align: center;
+	color: #fff;
+	margin-top: 270px;
+	padding-bottom: 185px;
+}
+.wc-note h2 {
+	font-family: verdena;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+.wc-note h1 {
+	text-transform: uppercase;
+	font-size: 70px;
+	font-weight: 700;
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+.wc-note a {
+	background: #FED136;
+	text-transform: uppercase;
+	padding: 23px 72px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	font-weight: 700;
+	font-size: 17px;
+}
+/* all header section */
+.services-header {
+	text-align: center;
+}
+.services-header h1 {
+	text-transform: uppercase;
+	font-size: 41px;
+	font-weight: 700;
+	margin-top: 100px;
+}
+
+.services-header p {
+	text-transform: capitalize;
+	opacity: 0.5;
+	font-size: 18px;
+}
+
+/* services */
+.services-prod {
+	text-align: center;
+	padding: 95px 50px;
+}
+
+.circle {
+	font-size: 42px;
+	border-radius: 50%;
+	border: 4px solid #FFD347;
+	color: #FFD347;
+	padding: 15px;
+}
+.circle1 {
+	font-size: 42px;
+	border-radius: 50%;
+	border: 4px solid #FFD347;
+	color: #FFD347;
+	padding: 15px 24px;
+}
+.services-prod p {
+	opacity: 0.5;
+	font-size: 15px;
+}
+
+.services-prod h3 {
+	font-size: 20px;
+}
+
+/* our portfilio */
+.our-portfilio {
+	background: #F8F8F8;
+	padding-bottom: 70px;
+}
+.portfilio-pic {
+	text-align: center;
+	margin-top: 65px;
+}
+
+.portfilio-name p {
+	opacity: 0.5;
+}
+.portfilio-name h3 {
+	margin: 0;
+}
+.protfilo-name {
+	background: #fff;
+	width: 297px;
+	margin: auto;
+	height: 70px;
+}
+
+/* about */
+.img-p h3 {
+	float: right;
+}
+.img-p p {
+	float: right;
+	padding: 0 38px;
+	padding-left: 103px;
+}
+.col-md-5.about-img {
+	margin-top: 45px;
+}
+.col-md-7.img1 {
+	margin-top: 68px;
+}
+.lmg2 img {
+	float: right;
+}
+.lmg2 {
+	width: 60%;
+	margin-top: 65px;
+}
+.about-2 {
+	margin-top: 65px;
+	width:40%;
+}
+
+.our-s a {
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+	padding: 60px 0;
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+}
+.our-s {
+	border-radius: 50%;
+	background: #FED136;
+	height: 180px;
+	width: 180px;
+	margin: auto;
+	text-align: center;
+	margin-top: 65px;
+	border: 7px solid #F1F1F1;
+}
+.about-section {
+	padding-bottom: 65px;
+}
+
+/* our=team */
+.team {
+	background: #F9F9F9;
+}
+.our-team {
+	text-align: center;
+	padding: 80px 0;
+}
+.our-team img {
+	width: 200px;
+}
+.our-team h3 {
+	text-transform: capitalize;
+	font-size: 19px;
+	font-weight: 700;
+}
+.f1 {
+	font-size: 20px;
+	padding: 10px 10px;
+	border: 3px solid;
+	border-radius: 50%;
+	margin-top: 18px;
+	width: 45px;
+	height: 45px;
+}
+.our-team ul {
+	list-style: none;
+}
+.our-team li {
+	display: inline;
+	padding: 5px;
+}
+
+/* contact us */
+.contact-us {
+	background-image: url(../img/map.png);
+	padding-bottom: 8%;
+}
+.contact-form {
+	width: 85%;
+	padding: 14px;
+	margin-top: 20px;
+	float: right;
+	border-radius: 3px;
+	border: 1px solid #fff;
+	font-weight: 700;
+}
+.contact-header {
+	text-align: center;
+	color: #fff;
+	margin-bottom: 70px;
+	text-transform: uppercase;
+	margin-top: 105px;
+}
+textarea {
+	margin-top: 20px;
+	padding: 5px 12px;
+	font-weight: 600;
+}
+.text-us a {
+	text-decoration: none;
+	background: #FED136;
+	padding: 21px 46px;
+	color: #FFF;
+	font-weight: 700;
+	border-radius: 5px;
+	font-size: 16px;
+}
+.text-us {
+	margin-top: 60px;
+	text-align: center;
+}
+/* footer */
+.find-us-sc li i {
+	font-size: 25px;
+	background: black;
+	color: #Fff;
+	border-radius: 50%;
+	width: 48px;
+	height: 48px;
+	text-align: center;
+	padding: 12px 10px;
+	opacity: 0.9;
+}
+.copy p {
+	float: right;
+	padding: 19px;
+}
+.footer {
+	padding: 25px;
+}
+.find-us.fa.fa-twitter:hover {
+	background: #0ac260;
+}
+.find-us.fa.fa-facebook:hover {
+	background: #272786;
+}
+
+.col-md-7.find-us-sc ul {
+	list-style: none;
+}
+.find-us-sc li{
+		display:inline
+	
+}
